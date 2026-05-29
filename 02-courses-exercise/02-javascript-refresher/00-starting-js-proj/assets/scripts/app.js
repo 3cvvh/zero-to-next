@@ -63,14 +63,22 @@
 // console.log(mergeObj)
 
 // const array = ["apel","buah"]
-const array = [
-"apel","apel2"
-]
-for(const food of array){
-    if(food == "apel"){
-        alert("apel jir")
-    }else if(food == "apel2"){
-        alert("apel 2 jir")
-    }
-    console.log(food)
+// const array = [
+// "apel","apel2"
+// ]
+const obj = {
+    name:"axyl",
+    age:12
 }
+
+for(const item in obj){
+    console.log(item)
+}
+// for(const food of array){
+//     if(food == "apel"){
+//         alert("apel jir")
+//     }else if(food == "apel2"){
+//         alert("apel 2 jir")
+//     }
+//     console.log(food)
+// }
