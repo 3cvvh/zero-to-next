@@ -82,3 +82,36 @@ for(const item in obj){
 //     }
 //     console.log(food)
 // }
+// document.getElementsByTagName("ul")[0].remove()
+
+//function menjadi argument build in function
+
+setTimeout(() => {
+    console.log("time out")
+}, 1000);
+const handdle = () => {
+    console.log("time out 2")
+}
+
+setTimeout(handdle,2000)
+
+// membuat function yang parameter nya berisi function
+function nestedFn(fn){
+    fn()
+}
+function greetings(){
+    console.log("hellos")
+}
+nestedFn(() => {
+    console.log("hello")
+})
+nestedFn(greetings)
+
+const array = [1,2,3,4,5,6];
+let newSlice = array.slice(0,2)
+let splice = array.splice(1,10,22,33)
+let total = array.reduce((accumulator,currentValue) => accumulator += currentValue,0)
+console.log(newSlice)
+console.log(total)
+console.log(splice)
+console.log(array)

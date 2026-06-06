@@ -24,5 +24,3 @@ Berikut kumpulan kosakata bahasa Inggris teknis yang muncul di Section 2:
 
 * **Esensial** (penting/sangat penting/wajib/pokok)
   > esensial artinya sangat penting kalo ada kata essensial bayangkan saja seperti pondasi utama suatu course misal nya
-
-
